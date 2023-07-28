@@ -1,0 +1,100 @@
+body
+{
+    background-image: url("./rxt1.webp");
+    margin: 0;
+    height: 110vh;
+}
+header{
+   /* border: 2px solid white;*/
+    padding: 20px;
+    color: white;
+    font-family: font-family: 'Roboto', sans-serif;
+    position: sticky;
+    top: 0;
+}
+.logobox{
+    /*border: 2px solid red;*/
+    display: inline-block;
+    width: 150px;
+    font-size: larger;
+    font-weight: 600px;
+cursor: pointer;
+}
+.logobox:hover{
+    color: rgb(197, 166, 226);
+}
+.navbox{
+   /* border: 2px solid green;*/
+    width: 600px;
+    position: absolute;
+    right: 20px;
+    display: inline-block;
+}
+.navbox>a{
+    color: white;
+    margin:20px ;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.navbox>a:hover{
+    color: rgb(197, 166, 226);
+}
+#homie{
+    color: salmon;
+
+}
+.heading{
+    color: rgba(209, 57, 40, 0.856);
+    font-size: 80px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+/*border: 2px solid white;*/
+width: 500px;
+top: 60px;
+left: 70px;
+position: relative;
+}
+.heading+h3{
+    color: azure;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   /* border: 2px solid white;*/
+    width: 500px;
+   /* top: 60px;*/
+    left : 100px;
+    position: relative;
+}
+.para{
+    color: azure;
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   /* border: 2px solid white;*/
+    width: 400px;
+    top: 20px;
+    left : 80px;
+    position: relative;
+}
+.btn{
+    width: 150 px;
+    padding: 15px;
+    border: 2px solid salmon;
+    background-color: crimson;
+    color: rgb(25, 32, 32);
+    font-family:'Roboto' ;
+    position: relative;
+    left: 80px;
+    top:20px;
+    font-weight: 700;
+    transition: all 0.5s;
+    cursor: pointer;;
+}
+.btn:hover{
+    background-color: rgb(44, 29, 29);
+    color: white;
+}
+
+footer{
+    color: whitesmoke;
+    position: fixed;
+    bottom: 0;
+    font-family:'Roboto' ;
+}
